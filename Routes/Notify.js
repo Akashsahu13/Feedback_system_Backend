@@ -1,5 +1,6 @@
 
 const Notify=(io)=>{
+    console.log("inside nootify")
 
 io.on("connect", (socket)=>{
 console.log(10);

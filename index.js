@@ -52,7 +52,7 @@ const server=app.listen(port, () => {
 
 const io = require('socket.io')(server ,{
   cors : {
-      origin : ['http://localhost:3000'],
+      origin : ['https://feedbackandreview.netlify.app'],
       methods : ["GET","POST"]
   }
 });
